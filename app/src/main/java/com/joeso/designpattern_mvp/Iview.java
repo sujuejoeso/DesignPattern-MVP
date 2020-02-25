@@ -1,7 +1,7 @@
 package com.joeso.designpattern_mvp;
 
-public interface MyView {
+public interface Iview {
     void showProgress();
     void hideProgress();
-    void setData(String data);
+    void updateNumber(int number);
 }
